@@ -7,17 +7,17 @@
         <ul class="menu">
             <li>
                 <v-btn @click="toHome">
-                Home
+                홈
                 </v-btn>
             </li>
             <li>
                 <v-btn @click="toPage1">
-                Page1
+                생성
                 </v-btn>
             </li>
             <li>
                 <v-btn @click="toPage2">
-                Page2
+                목록
                 </v-btn>
             </li>
         </ul>
@@ -30,13 +30,13 @@ export default{
 
     methods:{
         toHome(){
-            alert("home")
+            this.$router.push("/")
         },
         toPage1(){
-            alert("Page1")
+            this.$router.push("/create")
         },
         toPage2(){
-            alert("Page2")
+            this.$router.push("/table")
         }
     }
 }

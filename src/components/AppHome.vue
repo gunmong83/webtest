@@ -1,10 +1,10 @@
 <template>
-    <router-view />
+    <p>THIS IS HOME</p>
 </template>
 
 <script>
-export default{
-
+export default {
+ 
 }
 </script>
 <style>

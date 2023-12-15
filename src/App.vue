@@ -2,7 +2,7 @@
   <v-app>
     <core-app-bar />
     <core-app-view />
-    <core-app-footer />
+    <core-app-footer author="gunmong"/>
   </v-app>
 </template>
 
