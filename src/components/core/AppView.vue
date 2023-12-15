@@ -1,0 +1,13 @@
+    <template>
+    <p>
+        뷰
+    </p>
+    </template>
+    
+    <script>
+    export default{
+    
+    }
+    </script>
+    <style>
+    </style>
